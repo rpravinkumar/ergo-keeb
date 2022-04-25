@@ -76,7 +76,7 @@
 		&kp TILDE       &kp N7          &kp N8          &kp N9          &kp C_VOL_UP		    &kp PG_UP       &kp HOME        &kp UP          &kp END         &kp INS
 		&mt LSHFT GRAVE	&kp N4    	    &kp N5    	    &kp N6          &kp C_VOL_DN		    &kp PG_DN	    &kp LEFT        &kp DOWN        &kp RIGHT	    &mt RSHFT DEL
 		&mt LCTRL N0    &mt LGUI N1	    &mt LALT N2     &kp N3	        &kp C_MUTE			    &kp KP_N0	    &kp KP_N5	    &mt RALT KP_MINUS &mt RGUI KP_DIVIDE &mt RCTRL KP_DOT
-                                                        &mo 1           &kp LCTRL  			    &kp SPACE       &mo 2
+                                                        &mo 1           &kp LCTRL  			    &kp SPACE       &mo 3
 		>;
 		};
 		
@@ -91,7 +91,7 @@
 		
 		tri_layer {
 		bindings = <
-		&trans          &trans          &trans          &trans          &trans 			        &trans          &kp F7          &kp F8          &kp F9          &trans
+		&trans          &trans          &trans          &trans          &trans 			        &trans          &kp F7          &kp F8          &kp F9          &kp F12
 		&trans          &trans          &trans          &trans          &trans  		        &trans          &kp F4          &kp F5          &kp F6          &trans
 		&bt BT_CLR      &bt BT_NXT      &bt BT_PRV      &trans          &trans   		        &trans          &kp F1          &kp F2          &kp F3          &trans
                                                         &trans          &trans  		        &trans          &trans
